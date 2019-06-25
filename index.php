@@ -33,13 +33,13 @@
                         <div class="row no-gutters">
                             <div class="col-md-6">
 
-                               <a href="skills.php"> <figure class="icon-big" id="skills2">
+                               <a href="subpage/skills.php"> <figure class="icon-big" id="skills2">
                                    <i class="icon-cog-alt"></i><br />Skills
                                 </figure></a>
 
                             </div>
                             <div class=" col-md-6">
-                                <a href="contact.php"><figure class="icon-big" id="contact2">
+                                <a href="subpage/contact.php"><figure class="icon-big" id="contact2">
                                     
                                         <div class="icon" id="contact"><i class="icon-mail"></i><br />Contact</div>
                                    
@@ -48,7 +48,7 @@
                                  </a>
                             </div>
                             <div class="col-md-6">
-                               <a href="projects.php">
+                               <a href="subpage/projects.php">
                                     <figure class="icon-big" id="projects2">
                                     <i class="icon-terminal"></i><br />Projects
 
@@ -57,7 +57,7 @@
                             </div>
                             <div class="col-md-6">
                                 
-                                   <a href="cv.php">
+                                   <a href="subpage/cv.php">
                                    <figure class="icon-big" id="cv2">
                                     <i class="icon-doc-text-inv"></i><br />CV
                                 </figure>
