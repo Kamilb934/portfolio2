@@ -13,18 +13,21 @@
     <link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css">
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
 
     <title>Kamil Buczyński</title>
 </head>
 
 <body>
+   <div id="background-photo">
     <section class="wrapper">
-        <h1>
+       <a href="index.php"> <header class="name">
             <div id="imie">//Kamil</div>
             <div id="nazwisko">Buczyński</div>
             <div class="blink">_</div>
             <div id="clear"></div>
-        </h1>
+        </header>
+        </a>
 
         <div class="container">
             <div class="row">
@@ -109,7 +112,7 @@
 
 
     </section>
-
+</div>
 
 
 

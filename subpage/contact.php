@@ -7,44 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <script src="https://kit.fontawesome.com/aa23600508.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css?family=B612+Mono|Cuprum|Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css">
 
-    <link rel="stylesheet" href="../css/style.css" type="text/css">
+   
+    <link rel="stylesheet" href="../css/header.css" type="text/css">
+    <link rel="stylesheet" href="../css/contact.css" type="text/css">
 
     <title>Kamil Buczyński</title>
 </head>
     <body>
-        <section class="wrapper">
-            <h1>
-                <div id="imie">//Kamil</div>
-                <div id="nazwisko">Buczyński</div>
-                <div class="blink">_</div>
-                <div id="clear"></div>
-            </h1>
+       <div id="overlay">
+        
+         <a href="../index.php"><header class="name">
+            <div id="imie">//Kamil</div>
+            <div id="nazwisko">Buczyński</div>
+            <div class="blink">_</div>
+            <div id="clear"></div>
+        </header></a>
+        
+        
+        <div class="container">  
+  <form id="contact" action="skrypt.php" method="post">
+    <h3>Contact me</h3>
+    <fieldset>
+      <input name="name" placeholder="Your name" type="text"  tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input name="phone" placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input name="thema" placeholder="Message Subject" type="text" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea name="content" placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p class="copyright"><a href="../index.php"  title="kamilbuczynski.pl">Back to main page</a></p>
+  </form>
+</div>
+       
             
-            </section>
-
-
-
-
-
-
-   
-   
-   
-   
-   
-   
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
+</div>
 </body>
 
 </html>

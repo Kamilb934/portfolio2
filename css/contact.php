@@ -12,26 +12,37 @@
     <link href="https://fonts.googleapis.com/css?family=B612+Mono|Cuprum|Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css">
 
-    <link rel="stylesheet" href="../css/header.css" type="text/css">
+   
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/contact.css" type="text/css">
 
     <title>Kamil Buczyński</title>
 </head>
     <body>
-        <section class="wrapper">
-          <a href="../index.php"> 
-            <header class="name">
+        
+              <a href="../index.php"> <header class="name">
             <div id="imie">//Kamil</div>
             <div id="nazwisko">Buczyński</div>
             <div class="blink">_</div>
             <div id="clear"></div>
-            </header>
-          </a>
+        </header>
+        </a>
             
-            
-            </section>
+           
 
-
-
+<div>
+   <form action="skrypt.php" method="post">
+     Twój email: <br/>
+      <input type="text" name="email" /><br />
+      
+      Temat: <br/>
+      <input type="text" name="thema" /><br />
+      Wiadomość: <br/>
+      <textarea name="content"></textarea><br/>
+      <input type="submit" value="wyślij" />
+   </form>
+</div>
+ 
 
 
 

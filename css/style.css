@@ -1,48 +1,50 @@
 body {
-    background-image: url(img/programmer.jpg);
-    background-repeat: no-repeat;
+ 
     background-color: black;
     margin: 0 !important;
-    height: 100%;
+    height:100%;
 
 }
+#background-photo{
+       background-image: url(img/programmer.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+.name {
+   font-size: 30px;
+  }
+}
 .container {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
     margin-right: 50px;
 
+}
+
+.containers{
+  position: absolute; bottom:0;
 }
 figure {
 
     background-color: aqua;
 }
 .wrapper {
-    min-height: 650px;
-    max-height: 100%;
+
+    height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+   background-color: rgba(0,0,0,0.9);
+    background-image: linear-gradient(rgba(0,0,0,0), black);
     margin: 0 !important;
 }
-#imie {
-    float: left;
-    color: azure;
-    font-size: 60px;
-    font-family: 'Cuprum', sans-serif;
-    font-weight: 400;
-}
-#nazwisko {
-    float: left;
-    color: #2867cc;
-    font-size: 60px;
-    font-family: 'Cuprum', sans-serif;
-    font-weight: 400;
 
-}
 #clear {
     clear: both;
 }
 .quote {
-    height: 54%;
+    
     padding-top: 30%;
     font-family: 'B612 Mono', monospace;
     text-align: center;
@@ -67,7 +69,7 @@ figure {
     font-family: 'lato';
     color: azure;
     background-color: yellow;
-    height: 196px;
+    height: 200px;
     font-weight: 700;
     margin: 10px;
  
@@ -142,7 +144,7 @@ a:hover {
 }
 #github {
     background-color: #211F1F;
-    border: 2px solid #ffa500;
+    border: 2px solid azure;
     transition-duration: 0.2s;
 }
 #github:hover {
@@ -174,22 +176,3 @@ a:hover {
 
 
 }
-.blink {
-    float: left;
-    color: #2867cc;
-    font-size: 60px;
-    font-family: 'Cuprum', sans-serif;
-    font-weight: 400;
-    animation: blink 1.2s infinite;
-
-}
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }

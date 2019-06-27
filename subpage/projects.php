@@ -18,12 +18,15 @@
 </head>
     <body>
         <section class="wrapper">
-            <h1>
-                <div id="imie">//Kamil</div>
-                <div id="nazwisko">Buczyński</div>
-                <div class="blink">_</div>
-                <div id="clear"></div>
-            </h1>
+            <a href="../index.php"> 
+            <header class="name">
+            <div id="imie">//Kamil</div>
+            <div id="nazwisko">Buczyński</div>
+            <div class="blink">_</div>
+            <div id="clear"></div>
+            </header>
+        </a>
+            
             
             </section>
 
